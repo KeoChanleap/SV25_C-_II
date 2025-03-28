@@ -4,8 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        
+        .p a {
+            
+            text-decoration: none;
+            color:rgb(196, 228, 14);
+            background-color: rgb(19, 224, 64);
+            width: 100px;
+            border-radius: 100px;
+            padding: 4px;
+            transition: 0.3s;
+        }
+        .p a:hover {
+            color: rgb(255, 0, 0); 
+            transition: 0.3s;
+        }
+
+        .image-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px; 
+    }
+    .car-gif {
+        width: 300px;
+        height: auto;
+    }
+    </style>
 </head>
-<body>
-    <h1>sl leap ot</h1>
+<tr>
+    <td align="center" colspan="2"> <img src="image/baner1.jpg" width="100%"></td>
+    <!-- <td>2</td> -->
+</tr>
+<body style="background-image: url(image/night-city-background.jpg); width: 100%; background-attachment: fixed; backdrop-filter: blur(5px);">
+    
+    <tr>
+        <td colspan="2">
+            <marquee
+                        style="background-color: #92e60c; font-size: 50px; padding: 5px; font-family: Khmer os Moul Light; color: #f5129e; border-radius: 10px;">
+                        <div style="display: flex; align-items: center; ">
+                        <div>
+                            Modern Car BMW FERRARI LAMBORGHINI 0962581746
+                        </div>
+            </marquee>   
+            
+            
+            <div class="image-container">
+                <img src="image/Gif Mclaren.gif" class="car-gif">
+                <img src="image/Gif Lambor.gif" class="car-gif">
+                <img src="image/Gif Frrari.gif" class="car-gif">
+                <img src="image/Gif Audi.gif" class="car-gif">
+            </div>
+            
+
+        </td>
+        <!-- <td>2</td> -->
+  </tr>
+    <center>
+    <h1 class="p" >
+    <div>
+    <a href="Lamborghini.html"style="text-decoration: none;" target="MODELS">LAMBORGHINI </a> &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="BMW.html"style="text-decoration: none;" target="MODELS">BMW </a>  &nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="Ferrari.html"style="text-decoration: none;" target="MODELS">FERRARI </a><br>  &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+    </h1>
+
+    </center>
+    <iframe frameborder="0" name="MODELS" src="Lamborghini.html"  width="100%" height="1000px"> 
+
+    </iframe>
+
+   
 </body>
 </html>
